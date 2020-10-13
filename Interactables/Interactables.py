@@ -1,4 +1,3 @@
-import Map
-class Interactables(Map):
+class Interactables():
     def __init__(self, temp):
         self.temp = temp

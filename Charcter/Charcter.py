@@ -1,8 +1,6 @@
-from Main import Map
-
-
-class Charcter(Map):
-    def __init__(self, health, speed, spawnLocation):
+class Charcter():
+    def __init__(self, health, speed, spawnLocation, location):
         self.health = health
         self.speed = speed
         self.spawnLocation = spawnLocation
+        self.location = location
